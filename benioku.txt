@@ -1,0 +1,11 @@
+*hepsiburadaParseCommentsToCsv
+Bu script selenium modülünü kullanarak ilgili sayflar arasında dolaşıp ürünleri yorumlarını toplar, csv formatında bir dosya içerisine kaydeder.
+
+*csvDuzenleme
+Bu script csv formatında kaydedilmiş dosyanın içerisindeki duplicate alanları temizler, puana göre sıralama yapıp kaydeder.
+
+*puanHesapla
+Bu script düzenlenmiş csv dosyasının içerisindeki yorumları analiz eder, analiz sonucu ile yoruma verilen puanın bir arada olduğu csv dosyası içerisine depolar.
+
+*grafikOlusturma
+Bu script puanHesapla scriptinin oluşturduğu csv dosyasından yola çıkarak her bir puan için analiz edilen puanların yer aldığı grafikleri oluşturur.
